@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="12168" started-at="2020-05-12T14:48:45 CST" finished-at="2020-05-12T14:48:57 CST">
+    <groups>
+    </groups>
+    <test name="Demo" duration-ms="12168" started-at="2020-05-12T14:48:45 CST" finished-at="2020-05-12T14:48:57 CST">
+      <class name="cases.BrowserTest3">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:cases.BrowserTest3@cc285f4]" name="setup" is-config="true" duration-ms="6381" started-at="2020-05-12T14:48:45 CST" finished-at="2020-05-12T14:48:51 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.baidu.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:cases.BrowserTest3@cc285f4]" name="browser" duration-ms="379" started-at="2020-05-12T14:48:51 CST" finished-at="2020-05-12T14:48:51 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="arowser2()[pri:2, instance:cases.BrowserTest3@cc285f4]" name="arowser2" duration-ms="5374" started-at="2020-05-12T14:48:51 CST" finished-at="2020-05-12T14:48:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arowser2 -->
+      </class> <!-- cases.BrowserTest3 -->
+    </test> <!-- Demo -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="Demo">
+        <classes>
+            <class name="org.example.testAnnotation1">
+                <methods>
+                    <!-- 位置越在上的越先执行 -->
+                    <include name="test1"/>
+                    <include name="test11"/>
+                    <include name="test111"/>
+                    <include name="test2"/>
+                </methods>
+            </class> <!-- cases.BrowserTest3 -->
+            <!--            <parameter name="driver" value="firefox"></parameter>-->
+            <!--            <parameter name="url" value="https://www.baidu.com"></parameter>-->
+        </classes>
+    </test> <!-- Demo -->
+</suite> <!-- Default Suite -->
